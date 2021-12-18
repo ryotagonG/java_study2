@@ -9,11 +9,28 @@ public class helloworld {
 // //演算を行うプログラム
 //     System.out.println(3*5);
 
-//課題１
-    String name = "tanaka";
-    System.out.println("私の名前は" + name + "です");
-    int score = 4/2;
-    System.out.println("１たす１は" + score + "です");
-    System.out.println("４わる２は" + score + "です");
+// //課題１
+//     String name = "tanaka";
+//     System.out.println("私の名前は" + name + "です");
+
+//     int score = 4/2;
+//     System.out.println("１たす１は" + score + "です");
+//     System.out.println("４わる２は" + score + "です");
+
+// //算術演算
+//     int year;
+//     year = 2020;
+
+//     int next_year;
+//     next_year = year +1;
+//     year = next_year -2;
+
+//     year = next_year *2;
+//     year = year /2;
+
+//doubleを使用した計算
+    double num = 5.0/2.0;
+
+    System.out.println(num);
   }
 }
