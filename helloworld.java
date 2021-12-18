@@ -28,9 +28,52 @@ public class helloworld {
 //     year = next_year *2;
 //     year = year /2;
 
-//doubleを使用した計算
-    double num = 5.0/2.0;
+// //doubleを使用した計算
+//     double num = 5.0/2.0;
 
-    System.out.println(num);
+//     System.out.println(num);
+
+// //文字列結合演算子
+//     int year;
+//     year = 2020;
+
+//     System.out.println("今年は" + year + "です");
+
+// //代入演算子
+//     int year;
+//     year = 2020;
+//     year += year;
+
+//     System.out.println("今年は" + year + "です");
+
+// //インクリメント、デクリメント演算子
+//     int year;
+//     year = 2020;
+
+//     //year++;
+//     year--;
+
+//     System.out.println(year);
+
+// //命令実行文
+//     int year;
+//     int next_year;
+
+//     year = 2020;
+//     next_year = year +1;
+
+//     // int m = Math.max(year, next_year);
+//     int m = Math.min(year, next_year);
+
+//     System.out.println("小さいほうは" + m + "です");
+
+//キーボードからの入力を受け付ける
+    System.out.println("あなたの名前は？");
+    String input1 = new java.util.Scanner(System.in).nextLine();
+
+    System.out.println("あなたの年齢は？");
+    int input2 = new java.util.Scanner(System.in).nextInt();
+    
+    System.out.println("こんにちは" + input2 + "歳の" + input1 + "さんです");
   }
 }
